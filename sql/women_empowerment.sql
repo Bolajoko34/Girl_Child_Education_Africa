@@ -1,0 +1,36 @@
+CREATE TABLE IF NOT EXISTS women_empowerment (
+  Country VARCHAR(255) PRIMARY KEY,
+  Womens_Empowerment_Index_2022 DECIMAL(15,9),
+  Womens_Empowerment_Group_2022 VARCHAR(255),
+  Global_Gender_Parity_Index_2022 DECIMAL(15,9),
+  Gender_Parity_Group_2022 VARCHAR(255),
+  Human_Development_Group_2021 VARCHAR(255),
+  Sustainable_Development_Goal_Regions VARCHAR(255)
+);
+
+INSERT INTO women_empowerment (Country, Womens_Empowerment_Index_2022, Womens_Empowerment_Group_2022, Global_Gender_Parity_Index_2022, Gender_Parity_Group_2022, Human_Development_Group_2021, Sustainable_Development_Goal_Regions) VALUES
+('Namibia', 0.617, 'Lower-middle', 0.856, 'High', 'Medium', 'Sub-Saharan Africa'),
+('South Africa', 0.68, 'Lower-middle', 0.823, 'High', 'High', 'Sub-Saharan Africa'),
+('Benin', 0.418, 'Low', 0.497, 'Low', 'Low', 'Sub-Saharan Africa'),
+('Burkina Faso', 0.443, 'Low', 0.595, 'Low', 'Low', 'Sub-Saharan Africa'),
+('Burundi', 0.53, 'Low', 0.765, 'Upper-middle', 'Low', 'Sub-Saharan Africa'),
+('Cameroon', 0.52, 'Low', 0.752, 'Upper-middle', 'Medium', 'Sub-Saharan Africa'),
+('Egypt', 0.466, 'Low', 0.534, 'Low', 'High', 'Northern Africa and Western Asia'),
+('Gambia', 0.427, 'Low', 0.524, 'Low', 'Low', 'Sub-Saharan Africa'),
+('Ghana', 0.524, 'Low', 0.563, 'Low', 'Medium', 'Sub-Saharan Africa'),
+('Guinea', 0.4, 'Low', 0.546, 'Low', 'Low', 'Sub-Saharan Africa'),
+('Kenya', 0.591, 'Low', 0.769, 'Upper-middle', 'Medium', 'Sub-Saharan Africa'),
+('Lesotho', 0.531, 'Low', 0.784, 'Upper-middle', 'Low', 'Sub-Saharan Africa'),
+('Liberia', 0.435, 'Low', 0.604, 'Lower-middle', 'Low', 'Sub-Saharan Africa'),
+('Malawi', 0.464, 'Low', 0.606, 'Lower-middle', 'Low', 'Sub-Saharan Africa'),
+('Mali', 0.4, 'Low', 0.579, 'Low', 'Low', 'Sub-Saharan Africa'),
+('Niger', 0.307, 'Low', 0.662, 'Lower-middle', 'Low', 'Sub-Saharan Africa'),
+('Nigeria', 0.444, 'Low', 0.514, 'Low', 'Low', 'Sub-Saharan Africa'),
+('Rwanda', 0.565, 'Low', 0.846, 'High', 'Low', 'Sub-Saharan Africa'),
+('Senegal', 0.511, 'Low', 0.623, 'Lower-middle', 'Low', 'Sub-Saharan Africa'),
+('Sierra Leone', 0.438, 'Low', 0.588, 'Low', 'Low', 'Sub-Saharan Africa'),
+('Togo', 0.537, 'Low', 0.664, 'Lower-middle', 'Low', 'Sub-Saharan Africa'),
+('Tunisia', 0.512, 'Low', 0.594, 'Low', 'High', 'Northern Africa and Western Asia'),
+('Uganda', 0.463, 'Low', 0.672, 'Lower-middle', 'Low', 'Sub-Saharan Africa'),
+('Zambia', 0.441, 'Low', 0.637, 'Lower-middle', 'Medium', 'Sub-Saharan Africa'),
+('Zimbabwe', 0.519, 'Low', 0.655, 'Lower-middle', 'Medium', 'Sub-Saharan Africa');
