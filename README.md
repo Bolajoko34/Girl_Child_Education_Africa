@@ -1,177 +1,165 @@
-Girl Child Education in Africa – Data Analytics Project
-📊 A Data-Driven Analysis of Gender Gaps, Child Marriage, and Educational Inequality Across Africa
 
-📌 Project Overview
+# **Girl Child Education in Africa – Data Analytics Project**
 
-This project analyzes gender disparities in education across African countries using multiple datasets covering:
+📊 *A data-driven investigation into gender gaps, child marriage, and educational inequality across Africa.*
 
-Child marriage rates (girls vs boys)
+---
 
-Out-of-school rates
+## **📌 Project Overview**
 
-School completion rates
+Girls across Sub-Saharan Africa continue to face systemic educational barriers from early marriage and poverty to social expectations that push them out of school.
 
-Gender parity
+This project analyzes gender disparities in education using indicators related to:
 
-Women empowerment indicators
+* **Child Marriage (Girls vs Boys)**
+* **Out-of-School Rate (Gender + Residence + Wealth)**
+* **School Completion Rate**
+* **Gender Parity & Women Empowerment**
 
-The goal is to uncover how gender inequality, child marriage, and socioeconomic factors affect girls’ access to education, and how these insights align with findings from UNICEF and USAID.
+🔍 The aim is to move beyond narrative and show **evidence-based insights** that align with global findings from **UNICEF** and **USAID**, revealing how gender inequality directly impacts education outcomes.
 
-This work also forms part of a women empowerment initiative aimed at supporting girls in underserved African communities.
+This project is part of a broader **women empowerment mission** driven by a belief that data can guide policy, intervention design, and advocacy for underserved African communities.
 
-🎯 Objectives
+---
 
-Measure gender gaps in education outcomes across African regions.
+## **🎯 Objectives**
 
-Analyze the impact of child marriage on girls’ access to schooling.
+* Measure gender gaps in school attendance and completion.
+* Compare girls’ vs boys’ education outcomes across countries.
+* Analyze the impact of **child marriage on girls’ education**.
+* Visualize disparities based on **wealth**, **urban vs rural**, and **gender**.
+* Validate findings against UNICEF & USAID research.
+* Support policy, advocacy, and community action.
 
-Identify countries with highest educational inequality.
+---
 
-Visualize the relationship between:
+## **🛠️ Tools & Technologies**
 
-Poverty and schooling
+| Tool                  | Purpose                         |
+| --------------------- | ------------------------------- |
+| **Power BI**          | Dashboard & visualization       |
+| **Excel**             | Data cleaning & wrangling       |
+| **MySQL**             | Database (gender_parity_africa) |
+| **Python (optional)** | Additional analysis             |
 
-Rural/urban residence
+---
 
-Child marriage and education
+## **📂 Dataset Summary**
 
-Provide insights aligned with UNICEF and USAID reports.
+Data was cleaned, transformed, and categorized into:
 
-Advocate for policies and interventions that strengthen girl child education.
+* `Child_Marriage` — girls vs boys (by 15 & 18 yrs)
+* `Out_of_School_Rate` — gender + rural/urban + wealth
+* `Completion_Rate` — primary & secondary
+* `Gender_Parity_Index`
+* `Women_Empowerment_Index`
 
-🛠️ Tools & Technologies
+---
 
-Power BI (Dashboard visuals)
+## **📊 Dashboards**
 
-Excel (Data cleaning and preprocessing)
+### **Dashboard 1 — Girl Child Education in Africa**
 
-SQL (MySQL) – database storage (gender_parity_africa)
+🏷️ *Top KPIs & Regional Patterns*
 
-Python (optional) for further analysis
+* Girls vs boys out-of-school
+* Completion gap (Male – Female)
+* Bottom 5 Gender Gap Countries
+* Top 10 Child Marriage Rates
+* Gender Parity vs Women Empowerment Index
+* Education Levels Over Time (2015–2024)
 
-📂 Dataset Sources
+### **Dashboard 2 — Educational Inequality & School Exclusion**
 
-The project uses cleaned datasets derived from:
+🏷️ *Structural Barriers & Socioeconomic Impact*
 
-Child Marriage (Girls vs Boys)
+* Out-of-School % (All genders)
+* Inequality Index (2015–2021)
+* Household Wealth & School Exclusion
+* Urban vs Rural Disparities
+* Gender Exclusion by Education Level
 
-Out-of-School Rate (Gender + Rural/Urban + Wealth)
+---
 
-Completion Rate (Primary & Secondary)
+## **📌 Key Findings (UNICEF & USAID Alignment)**
 
-Women Empowerment Index
+| Finding                                               | Data Confirmation                                                             |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------- |
+| *Girls face the highest risk of being out of school.* | 30% of girls are out of school vs 26% boys.                                   |
+| *Early marriage drives school dropout.*               | CAR, Chad, Mali show **50–61%** girls married by 18; boys stay below **10%**. |
+| *Critical age window is 15–18.*                       | Sharp increase in child marriage between these years.                         |
+| *Poverty = Lower Access.*                             | Poorest households show 45% exclusion vs 13% in richest.                      |
+| *Geography matters.*                                  | Rural attendance significantly lower than urban.                              |
 
-Gender Parity Indicators
+📌 **Important nuance:**
 
-All datasets were combined, cleaned, and transformed for Power BI use.
+> Countries like **South Africa** and **Namibia** show high gender parity and empowerment scores, yet gender-tagged education data is incomplete — a reminder that **parity statistics do not always equal to access**, and data gaps are part of the challenge.
 
-📊 Dashboard Overview
-✔ Key Features:
+---
 
-Top KPIs:
-
-Girls out of school
-
-Boys out of school
-
-Completion rate gap
-
-Child marriage rate
-
-Regional Analysis Map (5 African regions)
-
-Top 10 Gender Parity Countries
-
-Bottom 5 Gender Gap vs Out-of-School Rate
-
-Child Marriage: Girls vs Boys
-
-Education Levels Over Time (Primary, Secondary, No Education)
-
-📌 Key Insights
-1. Child Marriage (Girls vs Boys) – Alignment with UNICEF & USAID
-
-chart shows:
-
-Girls face extremely higher child marriage rates than boys.
-
-In some African countries (CAR, Chad, Mali), over 50–60% of girls are married by age 18.
-
-Boys’ early marriage remains below 10% in most cases.
-
-This aligns directly with UNICEF and USAID findings:
-
-UNICEF reports that most of the world’s 120 million out-of-school children are girls, and early marriage is a major cause.
-
-USAID reports that 98 million girls are out of school and 1 in 7 girls is married before age 15.
-
-graph visually confirms:
-
-➡️ Child marriage is overwhelmingly a girls’ issue, not a boys’ issue.
-➡️ Majority of marriages happen between ages 15–18, matching UNICEF’s global child marriage curve.
-
-2. Education Outcomes
-
-Countries with high child marriage rates also have low secondary completion rates for girls.
-
-Rural girls remain significantly disadvantaged vs urban girls.
-
-Wealth strongly influences access — poorest girls are 3–5× more likely to be out of school.
-
-3. Gender Parity & Empowerment
-
-Countries with higher gender parity tend to have:
-
-Higher completion rates for girls
-
-Lower out-of-school rates
-
-Lower child marriage prevalence
-
-Example:
-South Africa & Rwanda consistently show better gender equity.
-
-🧠 Why This Matters
+## **🧠 Why This Matters**
 
 Educated girls are more likely to:
+✔ Delay marriage
+✔ Earn independently
+✔ Escape poverty
+✔ Lead in community & politics
+✔ Create generational change
 
-Delay marriage
+This project strengthens advocacy for **education access**, **policy reform**, and **female empowerment** across Africa.
 
-Earn higher income
+---
 
-Avoid poverty
+## **📁 Repository Structure**
 
-Raise healthier families
+```
+📦 girl-child-education-africa/
+ ┣ 📂 data/
+ ┃ ┣ 📂 raw/
+ ┃ ┗ 📂 cleaned/
+ ┣ 📂 dashboard/
+ ┃ ┗ 📄 powerBI_report.pbix
+ ┣ 📂 sql/
+ ┃ ┗ 📄 gender_parity_africa.sql
+ ┣ 📝 README.md
+```
 
-Become leaders in their communities
+---
 
-This project supports ongoing advocacy for women empowerment and girls’ education across Africa.
+## **🙌 Acknowledgements**
 
-🗂️ Project Structure
-|-- data/
-|   |-- raw/
-|   |-- cleaned/
-|
-|-- dashboard/
-|   |-- powerBI_report.pbix
-|
-|-- sql/
-|   |-- gender_parity_africa.sql
-|
-|-- README.md
+This project was developed as part of my final Internship project with **ThriveAfrica(FutureOfWork)** .
 
-💡 How to Use this Project
+A special thank you to my mentor **Benita Hindan**, the first person who taught me Data Analytics and inspired the foundation of this work.
 
-Download the Power BI file to explore the dashboard.
+---
 
-Import the SQL script to recreate the gender_parity_africa database.
+## **🚀 How to Use**
 
-Explore insights to support:
+1. Clone or download this repo
+2. Import `gender_parity_africa.sql` into MySQL
+3. Open the `.pbix` Power BI dashboard
+4. Filter by country, gender, or region
+5. Use insights for:
 
-Policy briefs
+   * Policy briefs
+   * NGO programs
+   * Research
+   * Community empowerment
 
-Research papers
+---
 
-Women empowerment initiatives
+## **🌍 Let’s Connect**
 
-Advocacy and community engagement
+💬 *How can data be used to influence education policy?*
+💡 *Which countries should we analyze next?*
+
+---
+
+## **🔖 Hashtags**
+
+#DataAnalytics #PowerBI #GirlChildEducation #WomenEmpowerment
+#GenderParity #EducationInequality #UNICEF #USAID
+#ThriveAfrica(FutureOfWork) #BenitaHindan #AfricaData
+#DataForGood #SocialImpact #DataStorytelling
+
