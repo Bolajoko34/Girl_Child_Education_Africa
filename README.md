@@ -59,6 +59,7 @@ Data was cleaned, transformed, and categorized into:
 ## **📊 Dashboards**
 
 ### **Dashboard 1 — Girl Child Education in Africa**
+![Girl Child Education Dashboard](https://github.com/user-attachments/assets/3547e820-0366-489d-8a35-950d8ed6c9bc)
 
 🏷️ *Top KPIs & Regional Patterns*
 
@@ -70,6 +71,7 @@ Data was cleaned, transformed, and categorized into:
 * Education Levels Over Time (2015–2024)
 
 ### **Dashboard 2 — Educational Inequality & School Exclusion**
+![Educational Inequality Dashboard](https://github.com/user-attachments/assets/22d26c6a-155c-44fe-80b3-958b71b33e2c)
 
 🏷️ *Structural Barriers & Socioeconomic Impact*
 
@@ -162,4 +164,5 @@ A special thank you to my mentor **Benita Hindan**, the first person who taught 
 #GenderParity #EducationInequality #UNICEF #USAID
 #ThriveAfrica(FutureOfWork) #BenitaHindan #AfricaData
 #DataForGood #SocialImpact #DataStorytelling
+
 
